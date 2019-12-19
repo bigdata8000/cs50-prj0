@@ -1,0 +1,29 @@
+/*
+    SCSS to CSS converted on 
+    https://jsonformatter.org/sass-to-css
+
+    nesting of css
+*/
+
+.happydiv {
+    font-size: 12px;
+    padding: 20px;
+
+    p {
+        color:purple;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    ul {
+        color: orange;
+        font-style: italic;
+    }
+
+    li {
+        color: blue;
+        font-weight: bold;
+    }
+
+}
+

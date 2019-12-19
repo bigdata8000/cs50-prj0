@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- MyCSS-->
+    <link rel="stylesheet" href="static/css/mystyle.css">
+
+    <title>CS50</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript">CS50</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animals.html">Animals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cars.html">Cars</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+    <h3>My favorite movies and motivational quotes</h3>
+
+<br>
+    
+    <ul>
+        <li><b>Bruce Lee  </b><img src="static/images/quoteOpen.png"> I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times<img src="static/images/quoteClose.png"></li>
+        <li><b>Steve Jobs  </b><img src="static/images/quoteOpen.png"> The people who are crazy enough to think they can change the world are the ones who do<img src="static/images/quoteClose.png"></li>
+        <li><b>Elon Musk  </b><img src="static/images/quoteOpen.png"> When something is important enough, you do it even if the odds are not in your favor<img src="static/images/quoteClose.png"></li>
+    </ul>
+    
+<br>      
+
+    <div id="movieTable">
+    <table class="table table-hover">
+        <thead class="table-warning">
+          <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Movie Name</th>
+            <th scope="col">Genere</th>
+            <th scope="col">Description</th>
+            <th scope="col">Actors</th>
+            <th scope="col">Where to buy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Ironman</td>
+            <td>Action, Superhero</td>
+            <td>Robert Downey Jr, Gwyneth Paltrow</td>
+            <td>Marvel's invincible Super Hero: Tony Stark builds high-tech suit of armour and vows to protect the world.</td>
+            <td><a href="https://www.amazon.co.uk/Iron-Man-DVD-Robert-Downey/dp/B0018JBX3K/ref=sr_1_4?keywords=ironman+dvd&qid=1576585649&sr=8-4">Amazon.co.uk</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Waiting for Superman</td>
+            <td>Documentary</td>
+            <td>Examines the crisis of public education in the United States.</td>
+            <td>Real People</td>
+            <td><a href="https://www.amazon.co.uk/Ip-Man-DVD-Donnie-Yen/dp/B001W9EUBI/ref=sr_1_5?keywords=yip+man&qid=1576586793&sr=8-5">Amazon.co.uk</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ip Man</td>
+            <td>Martial Arts</td>
+            <td>Wing Chun is characterised by close body combat, requiring practitioners to show speed & power, Bruce Lee's master.</td>
+            <td>Donnie Yen</td>
+            <td><a href="https://www.amazon.co.uk/Ip-Man-DVD-Donnie-Yen/dp/B001W9EUBI/ref=sr_1_5?keywords=yip+man&qid=1576586793&sr=8-5">Amazon.co.uk</a></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Boiler Room</td>
+            <td>Giovanni Ribisi, Vin Diesel, Ben Affleck</td>
+            <td>19-year-old New York college drop-out Seth Davis (Giovanni Ribisi) sets out to make his first million.</td>
+            <td>Crime Drama</td>
+            <td><a href="https://www.amazon.co.uk/Boiler-Room-DVD-Giovanni-Ribisi/dp/B00004WCLD/ref=sr_1_4?keywords=boiler+room&qid=1576587034&sr=8-4">Amazon.co.uk</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+     <br>
+     <br>
+
+     <hr>
+     <footer>Henry Lam | Web Programming with Python and JavaScript</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

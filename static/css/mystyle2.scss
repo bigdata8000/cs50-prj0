@@ -1,0 +1,30 @@
+/* 
+declare a variable with: $name 
+call variable with: $name
+convert scss to css via below command:
+    
+    scss fileName.scss fileName.css
+
+    eg:
+    scss mystyle2.scss mystyle2.css
+
+or
+    https://jsonformatter.org/sass-to-css
+
+ONLY use .css for styling HTML   
+*/
+
+$color: purple;
+
+ul {
+    font-size: 12px;
+    color: $color;
+}
+
+ol {
+    font-size: 10px;
+    color: $color;
+}
+
+
+

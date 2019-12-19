@@ -1,0 +1,19 @@
+.happy, .hungry, .upset {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+}
+.happy {
+    background-color: green;
+}
+.hungry {
+    background-color: purple;
+}
+.upset {
+    background-color: red;
+}

@@ -1,0 +1,17 @@
+.happydiv {
+    font-size: 12px;
+    padding: 20px;
+}
+.happydiv p {
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.happydiv ul {
+    color: orange;
+    font-style: italic;
+}
+.happydiv li {
+    color: blue;
+    font-weight: bold;
+}

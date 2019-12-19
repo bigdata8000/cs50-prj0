@@ -1,0 +1,81 @@
+/* 
+Below are css for standard html tags 
+*/
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4;
+    font-weight: thin;
+    color: purple;
+    text-align: left;
+}
+
+body{
+    margin: 10px;
+}
+
+hr{
+    border-bottom: 2px solid grey;
+}
+
+
+
+/* 
+Below are css for html elements with id="..." 
+*/
+
+#coding{
+    margin: 10px;
+}
+
+#movieTable{
+    width: 80%;
+}
+
+#carBox{
+    width: 85%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+
+
+/* 
+Below are css for html elements with class="..." 
+*/
+
+.style1{
+    width: 80pc;
+    size: 10;
+    color: purple;
+}
+
+.pet{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.petFrame{
+    border: solid 5px black;
+}
+
+.on-screen-only{
+    width: 140px;
+}
+
+
+
+/* 
+Below are the @media query 
+used on the image: pen
+*/
+
+@media print {
+    .on-screen-only {
+        display: none;
+    }
+
+}
+
+
+
